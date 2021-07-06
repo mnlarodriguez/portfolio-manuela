@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Rubik:wght@300;400;600;800&display=swap");
+/* Paleta */
+/* F-Sizes */
+/* F-Sizes */
+/* Mis margenes bottom */
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_variables.scss */
+.mbottom-1 {
+  margin-bottom: 10%;
+}
+
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_variables.scss */
+.mbottom-2 {
+  margin-bottom: 20%;
+}
+
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_variables.scss */
+.mbottom-3 {
+  margin-bottom: 30%;
+}
+
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_variables.scss */
+.mbottom-4 {
+  margin-bottom: 40%;
+}
+
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_variables.scss */
+.mbottom-5 {
+  margin-bottom: 50%;
+}
+
+/* Mis interlineados */
+/* line 1, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+body {
+  background-color: #F0FAF1;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* line 12, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+#header .navbar-nav {
+  padding-left: 40px;
+}
+
+/* line 16, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+#header .bg-light {
+  background-color: transparent !important;
+}
+
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+#header .navbar-light .navbar-toggler {
+  margin-right: 40px;
+  color: #F0FAF1;
+  border-style: none;
+}
+
+/* line 24, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+#header .navbar-light .navbar-toggler .navbar-toggler-icon {
+  width: 20px;
+}
+
+/* line 30, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+#footer {
+  background-color: #F8FDF8;
+  height: 230px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* line 42, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 10pt;
+}
+
+/* line 49, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.logo {
+  width: 40px;
+  margin-left: 20px;
+}
+
+/* line 54, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.redesFijas {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 65, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.redesFijas .ig-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../media/ig.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 65, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.redesFijas .lk-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../media/lk.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 65, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.redesFijas .bh-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../media/bh.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 78, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.inter-fino {
+  line-height: 3rem;
+}
+
+/* line 78, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.inter-normal {
+  line-height: 1.5rem;
+}
+
+/* line 78, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.inter-grande {
+  line-height: 2rem;
+}
+
+/* line 85, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.content .content__titulo, .content .content__titulo--claro {
+  color: #323f30;
+  font-size: 50pt;
+  font-weight: 600;
+}
+
+/* line 88, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.content .content__titulo--claro {
+  color: #98B99B;
+  font-weight: 400;
+}
+
+/* line 93, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.content .content__subtitulo {
+  color: #98B99B;
+  font-size: 25pt;
+  font-weight: 400;
+}
+
+/* line 96, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.content .content__parrafo {
+  color: #323f30;
+  font-size: 10pt;
+  font-weight: 400;
+}
+
+/* line 99, ../../Documents/2021/CODER/portfolio-manuela/scss/_main.scss */
+.content .content__boton {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  margin: auto;
+  margin-top: 30px;
+  background: #323f30;
+  transition: all 500ms ease-in-out;
+  width: 250px;
+}
+
+/* line 9, ../../Documents/2021/CODER/portfolio-manuela/scss/_mixin.scss */
+.content .content__boton a {
+  color: #F8FDF8;
+  text-decoration: none;
+}
+
+/* line 13, ../../Documents/2021/CODER/portfolio-manuela/scss/_mixin.scss */
+.content .content__boton:hover {
+  transform: translate(30px, 20px);
+  background: #98B99B;
+  transform: scale(1.1);
+}
+
+/* line 1, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.home {
+  margin: auto;
+  padding: 60px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+/* line 9, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.form {
+  margin: auto;
+  padding-top: 60px;
+}
+
+/* line 12, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.form .form__opciones {
+  color: #323f30;
+  font-size: 10pt;
+  line-height: 15pt;
+}
+
+/* line 17, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.form .form__padding {
+  padding-bottom: 10%;
+}
+
+/* line 20, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.form .form__etiquetas {
+  color: #98B99B;
+  font-size: 13pt;
+  line-height: 15pt;
+}
+
+/* line 27, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.port {
+  margin: auto;
+  padding-top: 60px;
+}
+
+/* line 32, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.prod {
+  margin: auto;
+}
+
+/* line 34, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.prod .prod__pic {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 40, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.mnla {
+  height: 100%;
+  margin: auto;
+  padding-top: 60px;
+}
+
+/* line 44, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.mnla .mnla__padding {
+  padding-right: 50px;
+  padding-top: 30%;
+  padding-bottom: 10%;
+}
+
+/* line 49, ../../Documents/2021/CODER/portfolio-manuela/scss/_secciones.scss */
+.mnla .mnla__pic {
+  background-image: url("../media/y1.png");
+  width: 100%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

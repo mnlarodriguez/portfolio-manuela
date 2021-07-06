@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color: $verdeClaro;
+  font-family: 'Rubik', sans-serif;
+}
+
+#header {
+	.navbar-nav {
+	    padding-left: 40px;
+	}
+
+	.bg-light {
+	    background-color: transparent!important;
+	}
+
+	.navbar-light .navbar-toggler {
+		margin-right: 40px;
+	    color: $verdeClaro;
+	    border-style: none;
+	    .navbar-toggler-icon {
+			width:20px;
+		}
+	}
+}
+
+#footer{
+	background-color: $blanco;
+	height: 230px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 30px;
+	font-size: $textoChico;
+}
+
+.logo{
+	width: 40px;
+	margin-left: 20px;
+}
+
+.redesFijas {	
+	position: fixed;
+	bottom:0;
+	right: 0;
+	margin: 20px;
+	width: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	@each $redes in ig, lk, bh {
+	   .#{$redes}-icon { 
+	   	     width: 20px;
+	   	     height: 20px;
+	         background-image: url('../media/#{$redes}.png');
+	         background-repeat: no-repeat;
+		 	 background-size: cover;
+			 background-position: center;
+	       
+    }}
+}
+
+
+@each $k, $v in $inter {
+    .inter-#{$k}{
+        line-height: $v;
+
+    }
+}
+
+.content{
+    .content__titulo{
+    	@include textos ($verdeOscuro, $textoGrande, $bold);
+	}
+	.content__titulo--claro {
+    	@extend .content__titulo;
+		color: $verdeMedio;
+		font-weight: $regular;
+	}
+	.content__subtitulo{
+		@include textos ($verdeMedio, $textoMedio, $regular);
+	}
+	.content__parrafo{
+		@include textos ($verdeOscuro, $textoChico, $regular);
+	}
+	.content__boton{
+		@include botones;
+	}
+}

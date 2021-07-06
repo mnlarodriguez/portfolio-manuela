@@ -1,0 +1,24 @@
+@mixin botones {
+		display: inline-block;
+		padding: 0.5em 1.5em;
+		margin:auto;
+		margin-top: 30px;
+		background: $verdeOscuro;
+		transition: all 500ms ease-in-out;	
+		width: 250px;
+		a{
+			color: $blanco;
+			text-decoration: none;
+		}
+		&:hover{
+			transform: translate(30px, 20px);
+			background: $verdeMedio;
+			transform: scale(1.1);
+	    }	
+	}
+
+@mixin textos ($color, $size, $weight){
+		color: $color;
+		font-size:$size;
+		font-weight:$weight;
+}

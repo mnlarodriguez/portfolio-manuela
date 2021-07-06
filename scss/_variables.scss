@@ -1,0 +1,26 @@
+/* Paleta */
+$verdeOscuro: #323f30;
+$verdeClaro: #F0FAF1;
+$verdeMedio: #98B99B;
+$blanco: #F8FDF8;
+
+/* F-Sizes */
+$textoGrande: 50pt;
+$textoChico: 10pt;
+$textoMedio: 25pt;
+$textoInter: 13pt;
+
+/* F-Sizes */
+$bold: 600;
+$regular: 400;
+
+/* Mis margenes bottom */
+$margin: 10%;
+@for $i from 1 to 6 {
+    .mbottom-#{$i}{
+        margin-bottom: $margin * $i;
+    }
+}
+
+/* Mis interlineados */
+$inter:('fino':3rem, 'normal':1.5rem , 'grande':2rem)

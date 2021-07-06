@@ -1,0 +1,53 @@
+.home{
+	 margin: auto;
+     padding: 60px;
+     padding-top: 20%;
+     padding-bottom: 20%;
+     text-align: center;
+}
+
+.form{
+	 margin: auto;
+     padding-top: 60px;
+     .form__opciones{
+     	color: $verdeOscuro;
+		font-size: $textoChico;
+		line-height: 15pt;
+     }
+     .form__padding{
+		padding-bottom:10%;
+	}
+     .form__etiquetas{
+     	color: $verdeMedio;
+		font-size: $textoInter;
+		line-height: 15pt;
+     }     
+ }
+
+.port{
+	 margin: auto;
+     padding-top: 60px;
+ }
+
+.prod{
+	 margin: auto;
+     .prod__pic {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+.mnla{
+	 height: 100%;
+	 margin: auto;
+	 padding-top: 60px;
+	 .mnla__padding{
+		padding-right: 50px;
+		padding-top: 30%;
+		padding-bottom:10%;
+	}
+	 .mnla__pic {
+		background-image: url("../media/y1.png");
+		width:100%;
+	}
+}
